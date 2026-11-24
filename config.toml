@@ -1,0 +1,35 @@
+theme = "theme"
+
+[editor]
+evil = true
+default-yank-register = "+"
+bufferline = "multiple"
+gutters = ["line-numbers", "spacer", "diff"]
+popup-border = "all"
+end-of-line-diagnostics = "hint"
+line-number = "relative"
+
+[editor.cursor-shape]
+insert = "bar"
+
+[editor.indent-guides]
+render = true
+character = "▏"
+skip-levels = 1
+
+[editor.lsp]
+display-inlay-hints = false
+
+[editor.inline-diagnostics]
+cursor-line = "warning" # show warnings and errors on the cursorline inline
+
+[keys.normal]
+C-p = "file_picker"
+A-p = "file_picker"
+C-left  = ":buffer-previous"
+C-right = ":buffer-next"
+C-w  = ":buffer-close"
+
+[keys.normal."\\"]
+c = { a = "code_action" }
+r = "rename_symbol"

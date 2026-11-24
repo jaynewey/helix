@@ -1,0 +1,17 @@
+inherits = "term16_dark"
+
+"diagnostic.error"   = { underline = { color = "#ff5555", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "#ffcc00", style = "curl" } }
+"diagnostic.info"    = { underline = { color = "#5599ff", style = "curl" } }
+"diagnostic.hint"    = { underline = { color = "#55cc55", style = "curl" } }
+
+"error"   = { fg = "#ff5555" }
+"warning" = { fg = "#ffcc00" }
+"info"    = { fg = "#5599ff" }
+"hint"    = { fg = "#55cc55" }
+
+"ui.statusline" = { }
+"ui.bufferline" = { }
+"ui.bufferline.active" = { bg = "black" }
+"ui.linenr" = { fg = "black" }
+"ui.linenr.selected" = { fg = "light-white" }
